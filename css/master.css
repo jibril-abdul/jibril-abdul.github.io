@@ -1,0 +1,399 @@
+/**
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+- #193441 dark blue
+- #36718d lighter dark blue
+- #27c4f4 light blue
+- #292929 dark grey
+- #ffad00 mustard
+**/
+/**** GLOBAL ***/
+html,
+body {
+    overflow-x: hidden !important;
+    font-family: 'Roboto', sans-serif;
+    color: #193441;
+}
+
+.left-p-sm-31
+/*section#recentWork .work_item_left */{
+  padding-left: 31px;
+}
+
+.right-p-sm-31 {
+  padding-right: 31px;
+}
+
+header section.home-h {
+  background-color: #D4F3FD;
+  background-color: rgba(39, 196, 244, 0.2);
+}
+
+/*** HEADER ***/
+
+header section.home-h,
+header nav.navbar #navbarNav .navbar-nav li.nav-item a {
+  color: #36718d;
+}
+
+
+header .home-h h2 {
+  display: inline-block;
+}
+
+
+
+header .home-h .myLine {
+  display: inline-block;
+  width: 160px;
+  height: 4px;
+  background-color: #27c4f4;
+  color: black;
+  position: relative;
+  bottom: 14px;
+
+}
+
+/*** RECENT WORK ***/
+.pf_item {
+  background-color: #D4f3FD;
+  background-color: rgba(39, 196, 244, 0.2);
+
+}
+
+
+section#recentWork {
+  overflow-x: hidden;
+  margin-bottom: 7rem;
+}
+
+
+section #pf_item_left_1 {
+  background: linear-gradient(rgba(39,196,244,0.2),rgba(39,196,244,0.2)),
+  url(../img/dallasAreaLock.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section #pf_item_right_1 {
+  background: linear-gradient(rgba(39,196,244,0.2),rgba(39,196,244,0.2)),
+  url(../img/UnorthodoxMappingpf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pf_item h4 {
+  text-shadow: 1px 1px 1px rgba(51,51,51,0.7);
+}
+
+.pf_item .btn-primary {
+    color: #fff;
+    background-color: #27c3f4;
+    border-color: #27c2f4;
+}
+
+.pf_item .btn-primary:hover {
+    color: #fff;
+    background-color: #0ba3d5;
+    border-color: #0ba3d5;
+}
+
+/**** ABOUT PAGE ****/
+.about-h, .about-blurb,
+.facts-small-screen .like-item-small:nth-of-type(odd) {
+  background-color: #D4F3FD;
+  background-color: rgba(39, 196, 244, 0.2);
+}
+
+#about-cta {
+  border-top: 1px #ddd solid;
+  border-bottom: 1px #ddd solid;
+}
+
+#about-cta .cta-item:first-of-type {
+  border-right: 1px #ddd solid;
+}
+
+#about-cta .cta-item .btn.btn-link {
+  color: #27c3f4;
+}
+
+#about-cta .cta-item .btn.btn-link:hover {
+  color: #0ba3d5;
+}
+
+div.carousel ol.carousel-indicators li {
+  background-color: #27c2f4;
+
+}
+
+.facts-small-screen .fas,
+.like-item .fas {
+  color: #27c3f4;
+}
+
+/*** PORTFOLIO PAGE ****/
+
+.portfolio-list-projects h3 {
+  color: #36718d;
+}
+
+.portfolio-list-projects .btn-primary {
+    color: #fff;
+    background-color: #36718d;
+    border-color: #36718d;
+}
+
+.portfolio-list-projects .btn-primary:hover {
+    color: #fff;
+    background-color: #275368;
+    border-color: #275368;
+}
+
+.portfolio-list-projects .btn-outline-primary {
+    color: #36718d;
+    background-color: #ffffff;
+    border-color: #36718d;
+}
+
+.portfolio-list-projects .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #36718d;
+    border-color: #36718d;
+}
+
+/*** FOOTER ***/
+#preFooter {
+  background-color: #36718d;
+}
+
+#footer-main {
+  padding-bottom: 7rem;
+}
+
+footer a.btn-preFooter {
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+  color: white;
+}
+
+footer a.btn-preFooter:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .8);
+  border-bottom-color: rgba(255, 255, 255, .8);
+}
+
+footer .icon_item a {
+  color: #27c3f4;
+}
+
+footer .icon_item a:hover {
+  color: #0ba3d5;
+}
+
+
+
+/**** FONTS ****/
+h1 {
+  font-size: 2.281rem;
+  font-weight: 600;
+  line-height: 1.35;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #193441;
+}
+
+h1.special_color {
+  color: #36718d;
+}
+
+
+h2 {
+  color: #36718d;
+  font-size: 2.281rem;
+  font-weight: 400;
+}
+
+header,
+.pf_item h3,
+.portfolio-list-projects h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+header section h2 {
+  font-size: 2.281rem;
+}
+
+h3,
+header section h3,
+.pf_item h3 {
+  font-size: 1.802rem;
+  line-height: 1.27;
+}
+
+.pf_item h3 {
+  color: #193441;
+}
+
+.pf_item h4,
+.portfolio-list-projects h4,
+.case-study h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.266rem;
+  font-weight: 300;
+  line-height: 1.27;
+  color: #ecf0f1;
+}
+
+.portfolio-list-projects h4,
+.case-study h4 {
+  color: #193441;
+}
+
+
+.facts-small-screen .fas,
+.like-item .fas {
+  font-size: 2rem;
+}
+
+.like-item-small h5,
+.like-item h5,
+.case-study h5 {
+  padding-top: 1rem;
+  font-size: .889rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: .1rem;
+  color: #36718d;
+}
+
+.case-study h5 {
+  padding-top: 0px !important;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: white;
+  line-height: 1.34;
+}
+
+footer .icon_item {
+  font-size: 2rem;
+}
+
+/***************************
+MEDIA QUERIES
+***************************/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  /* 5.5 column */
+  .col-sm-5-5 {
+    flex: 0 0 48.83333%;
+    max-width: 48.83333%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .left-p-sm-31 {
+    padding-left: 46px;
+  }
+
+  .right-p-sm-31 {
+    padding-right: 46px;
+  }
+
+  h1 {
+    font-size: 2.566rem;
+  }
+
+  #carouselExampleIndicators {
+    min-height: 200px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2.887rem;
+  }
+
+  h2,
+  header section h2 {
+    font-size: 2.566rem;
+  }
+
+  header section h3 {
+    font-size: 2.027rem;
+    line-height: 1.27;
+  }
+
+  footer p {
+    font-size: 1.266rem;
+  }
+
+  #carouselExampleIndicators {
+    min-height: 180px;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+/**
+.wrapper {
+     overflow-x:hidden;
+}
+
+.right:before {
+    right: -999em;
+    background: rebeccapurple;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 999em;
+    top: 0;
+    bottom: 0;
+}
+.left:before {
+    left: -999em;
+    background: lightgrey;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 999em;
+    top: 0;
+    bottom: 0;
+}
+
+
+
+
+#main {
+    min-height: 100vh;
+}
+
+.right {
+    z-index: 0;
+    color: #fff;
+}
+
+.right:before {
+    background-image: url("/Users/macbookpro15/Documents/Personal-Website/site/img/jibril-abdul-image.jpg");
+    background-repeat: no-repeat;
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 999em;
+    /* allow for bootstrap column padding */
+    /**
+    top: -15px;
+    left: -15px;
+    bottom: -15px;
+}
+**/
